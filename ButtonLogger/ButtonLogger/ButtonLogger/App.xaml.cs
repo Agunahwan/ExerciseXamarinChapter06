@@ -10,7 +10,8 @@ namespace ButtonLogger
         {
             //MainPage = new ButtonLoggerPage();
             //MainPage = new TwoButtonsPage();
-            MainPage = new ButtonLambdasPage();
+            //MainPage = new ButtonLambdasPage();
+            MainPage = new SimplestKeypadPage();
         }
 
         protected override void OnStart()

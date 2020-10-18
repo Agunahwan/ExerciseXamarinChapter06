@@ -8,7 +8,8 @@ namespace ButtonLogger
     {
         public App()
         {
-            MainPage = new ButtonLoggerPage();
+            //MainPage = new ButtonLoggerPage();
+            MainPage = new TwoButtonsPage();
         }
 
         protected override void OnStart()
